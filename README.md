@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Hi there 👋, I'm <span style="color:#f1356d">Muhamad Farhan</span></h1>
-<h3 align="center">Full-Stack Web Developer | Information Technology | Student at Muhammadiyah University of Yogyakarta</h3>
+<h3 align="center"> Software Engineer | Full-Stack Developer | Fresh Graduate from Muhammadiyah University of Yogyakarta</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FarhanVirenze&label=Profile%20views&color=f1356d&style=flat-square" alt="profile views" />
@@ -20,7 +20,7 @@
 
 ### 💡 About Me
 
-- 🎓 **Fresh Graduate in Information Technology** from Universitas Muhammadiyah Yogyakarta (GPA: 3.63)
+- 🎓 **Fresh Graduate in Information Technology** from Muhammadiyah University of Yogyakarta (GPA: 3.63)
 - 🔭 Currently focusing on: `Software Engineering`, `Full Stack Development`, and `Mobile Application Development`
 - 🌱 Advanced Tech Stack: `Laravel`, `React.js`, `Next.js`, `Flutter`, `Kotlin`, and `GCP (Google Cloud Platform)`
 - 🤖 AI & Automation: Building RAG systems (`Chroma`, `LangChain`) and AI Agent pipelines (`OpenAI APIs`, `OpenRouter`)
