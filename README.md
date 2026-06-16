@@ -20,10 +20,11 @@
 
 ### 💡 About Me
 
-- 🎓 6th semester student at **Muhammadiyah University of Yogyakarta**
-- 🔭 Currently working on: `Train Ticket Booking System`
-- 🌱 Currently learning: `Laravel`, `RESTful APIs`, and `Software Architecture`
-- 💬 Ask me about: `React`, `JavaScript`, `Python`, `MySQL`, or anything backend
+- 🎓 **Fresh Graduate in Information Technology** from Universitas Muhammadiyah Yogyakarta (GPA: 3.63)
+- 🔭 Currently focusing on: `Software Engineering`, `Full Stack Development`, and `Mobile Application Development`
+- 🌱 Advanced Tech Stack: `Laravel`, `React.js`, `Next.js`, `Flutter`, `Kotlin`, and `GCP (Google Cloud Platform)`
+- 🤖 AI & Automation: Building RAG systems (`Chroma`, `LangChain`) and AI Agent pipelines (`OpenAI APIs`, `OpenRouter`)
+- 💬 Ask me about: `RESTful APIs`, `Software Architecture`, or intelligent task automation & multi-step reasoning workflows
 - 📬 Reach me at: [farhanvirenze18@gmail.com](mailto:farhanvirenze18@gmail.com)
 
 ---
