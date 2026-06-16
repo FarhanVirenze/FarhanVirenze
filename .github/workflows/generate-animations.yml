@@ -1,0 +1,55 @@
+name: Generate Animations
+
+on:
+  schedule:
+    # Berjalan otomatis setiap 12 jam
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Buat folder dist terlebih dahulu agar tidak error 'directory not found'
+      - name: Create Dist Directory
+        run: mkdir -p dist
+
+      # 1. GENERATE SNAKE ANIMATION
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 2. GENERATE PACMAN ANIMATION
+      - name: Generate Pacman SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      # Pindahkan file Pacman dari root ke folder dist agar bisa di-push bareng Snake
+      - name: Move Pacman SVG to Dist
+        run: |
+          mv pacman-contribution-graph.svg dist/ 2>/dev/null || true
+          mv pacman-contribution-graph-dark.svg dist/ 2>/dev/null || true
+
+      # 3. PUSH SEMUA FILE DI FOLDER DIST KE BRANCH OUTPUT
+      - name: Push All SVGs to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
