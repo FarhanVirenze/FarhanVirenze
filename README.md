@@ -4,17 +4,15 @@
 </p>
 
 <h1 align="center">Hi there 👋, I'm <span style="color:#f1356d">Muhamad Farhan</span></h1>
-<h3 align="center">Full-Stack Web Developer | Information Techonology | Student at Muhammadiyah University of Yogyakarta</h3>
-
----
+<h3 align="center">Full-Stack Web Developer | Information Technology | Student at Muhammadiyah University of Yogyakarta</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=FarhanVirenze&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=FarhanVirenze&label=Profile%20views&color=f1356d&style=flat-square" alt="profile views" />
   <a href="https://instagram.com/xffarhans" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-@xffarhans-E4405F?style=flat&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Instagram-@xffarhans-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
   </a>
   <a href="mailto:farhanvirenze18@gmail.com">
-    <img src="https://img.shields.io/badge/Email-farhanvirenze18@gmail.com-D14836?style=flat&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-farhanvirenze18@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
@@ -22,11 +20,11 @@
 
 ### 💡 About Me
 
-- 🎓 6th semester student at **@Muhammadiyah University of Yogyakarta**
+- 🎓 6th semester student at **Muhammadiyah University of Yogyakarta**
 - 🔭 Currently working on: `Train Ticket Booking System`
 - 🌱 Currently learning: `Laravel`, `RESTful APIs`, and `Software Architecture`
-- 💬 Ask me about: `React`, `Javascript`, `Python`, `MySQL`, or anything backend
-- 📬 Reach me at: `farhanvirenze18@gmail.com`
+- 💬 Ask me about: `React`, `JavaScript`, `Python`, `MySQL`, or anything backend
+- 📬 Reach me at: [farhanvirenze18@gmail.com](mailto:farhanvirenze18@gmail.com)
 
 ---
 
@@ -48,16 +46,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FarhanVirenze&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhanVirenze&layout=compact&theme=tokyonight" alt="Top Languages"/>
-</p>
-
----
-
 ### 📊 GitHub Stats & Trophies
 
 <p align="center">
@@ -65,6 +53,35 @@
     <img src="https://github-profile-trophy.vercel.app/?username=FarhanVirenze&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="Trophies"/>
   </a>
 </p>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=FarhanVirenze&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="150px"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhanVirenze&layout=compact&theme=tokyonight" alt="Top Languages" height="150px"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🎮 Play games with me
+
+#### 👾 Pacman Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph.svg" width="100%">
+</picture>
+
+#### 🐍 Snake Contribution Graph
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 ---
 
@@ -76,28 +93,14 @@
 
 ### 📌 Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/muhamadfrhn/)
-- 🌐 [PortofolioWebsite](https://xffarhans.vercel.app/)
-- 💬 [Instagram](https://instagram.com/xffarhans)
-
----
-
----
-
-<h2 align="left">🎮 Play games with me</h2>
-
-### 👾 Pacman Contribution Graph
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/pacman-contribution-graph.svg" width="100%">
-</picture>
-
-### 🐍 Snake Contribution Graph
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/FarhanVirenze/FarhanVirenze/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-###
+<p align="center">
+  <a href="https://www.linkedin.com/in/muhamadfrhn/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/xffarhans" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="https://xffarhans.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
