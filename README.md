@@ -1,6 +1,6 @@
 <!-- Banner Image -->
 <p align="center">
-  <img src="img/fullstack.png" alt="Full Stack Banner" width="100%">
+  <img src="img/Fullstack.png" alt="Full Stack Banner" width="100%">
 </p>
 
 <h1 align="center">Hi there 👋, I'm <span style="color:#f1356d">Muhamad Farhan</span></h1>
@@ -75,7 +75,7 @@
 ### 📌 Let's Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/muhamadfrhn/)
-- 🌐 [PortofolioWebsite](https://portofolio-websitemuhamadfarhan.vercel.app/)
+- 🌐 [PortofolioWebsite](https://xffarhans.vercel.app/)
 - 💬 [Instagram](https://instagram.com/xffarhans)
 
 ---
