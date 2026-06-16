@@ -66,17 +66,6 @@
   </a>
 </p>
 
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=FarhanVirenze&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="150px"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhanVirenze&layout=compact&theme=tokyonight" alt="Top Languages" height="150px"/>
-    </td>
-  </tr>
-</table>
-
 ---
 
 ### ✨ Quote to Live By
