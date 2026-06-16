@@ -1,0 +1,52 @@
+name: Generate Contribution Animations
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Setup folder output agar bersih
+      - name: Setup Target Directory
+        run: mkdir -p dist
+
+      # 1. GENERATE PACMAN GRAPH (Menghasilkan pacman-contribution-graph.svg)
+      - name: Generate Pacman Graph
+        uses: jasonlong/gpm@v1
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      # Pindahkan output pacman ke folder dist agar bisa di-push bareng snake
+      - name: Move Pacman to Dist
+        run: |
+          mv pacman-contribution-graph.svg dist/ 2>/dev/null || true
+          mv pacman-contribution-graph-dark.svg dist/ 2>/dev/null || true
+
+      # 2. GENERATE SNAKE GRAPH (Menghasilkan github-contribution-grid-snake.svg)
+      - name: Generate Snake Graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 3. PUSH SEMUA ANIMASI KE BRANCH OUTPUT
+      - name: Push Animations to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
