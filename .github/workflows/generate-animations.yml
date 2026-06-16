@@ -2,7 +2,6 @@ name: Generate Animations
 
 on:
   schedule:
-    # Berjalan otomatis setiap 12 jam
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -20,13 +19,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Buat folder dist terlebih dahulu agar tidak error 'directory not found'
+      # Buat folder dist terlebih dahulu
       - name: Create Dist Directory
         run: mkdir -p dist
 
-      # 1. GENERATE SNAKE ANIMATION
+      # 1. GENERATE SNAKE ANIMATION (Versi Stabil)
       - name: Generate Snake SVG
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -39,7 +38,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Pindahkan file Pacman dari root ke folder dist agar bisa di-push bareng Snake
+      # Pindahkan file Pacman ke folder dist agar bisa di-push bareng
       - name: Move Pacman SVG to Dist
         run: |
           mv pacman-contribution-graph.svg dist/ 2>/dev/null || true
