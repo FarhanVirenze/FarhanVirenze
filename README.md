@@ -50,7 +50,7 @@
 
 <p align="center">
   <a href="https://github.com/FarhanVirenze">
-    <img src="https://github-profile-trophy.vercel.app/?username=FarhanVirenze&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="Trophies"/>
+    <img src="https://github-readme-stats.vercel.app/api/badges?username=FarhanVirenze&theme=tokyonight" alt="GitHub Badges"/>
   </a>
 </p>
 
