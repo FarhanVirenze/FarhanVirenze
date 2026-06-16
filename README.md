@@ -48,12 +48,6 @@
 
 ### 📊 GitHub Stats & Trophies
 
-<p align="center">
-  <a href="https://github.com/FarhanVirenze">
-    <img src="https://github-profile-trophy.vercel.app/?username=FarhanVirenze&theme=tokyonight&column=7&no-bg=true&no-frame=true" alt="Trophies"/>
-  </a>
-</p>
-
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="center" valign="top">
